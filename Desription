@@ -1,0 +1,9 @@
+Entity framework Core WepAPI ile proje geliştirilmiştir. 
+Veritabanı için Mssql- Code-first yapısı kullanılmıştır. Bu sebeple veritabanı baglantısı için migrations yapılması gerekmektedir. 
+Verileri 1 saat ara ile çekmek için window service projesi geliştirilmiştir. 
+Proje Domain Driven Design yaklaşımı ile hazırlanmıştır
+CQRS kullanılarak komutlar ve sorgular irbirinden ayrılmıştır. Bunun için Mediatr kullanılmıştır.
+Dependcy Injection için Fluent Validation kullanılmıştır.
+Authentication için JWT kullanılmıştır. 
+Web api Veritaanından filmleri,yorumları getirmektedir. Ayrıca yorum eklenebilmektedir.
+Sayfalama yapısı, Authentication yapısı ve exception handling yapısı Core paketlerinin içerisindedir. 
